@@ -1,0 +1,163 @@
+{
+    "SofasAndCouches": [
+      {
+        "image": "",
+        "name": "Modern Sofa",
+        "description": "A contemporary sofa with sleek design and comfortable cushions.",
+        "price": 800
+      },
+      {
+        "image": "images/SofaCouch2.jpeg",
+        "name": "Leather Couch",
+        "description": "A luxurious leather couch with classic aesthetics.",
+        "price": 1200
+      },
+      {
+        "image": "images/SofaCouch3.jpeg",
+        "name": "Sectional Sofa",
+        "description": "Spacious sectional sofa ideal for large living rooms.",
+        "price": 1500
+      },
+      {
+        "image": "images/SofaCouch4.jpeg",
+        "name": "Fabric Sofa",
+        "description": "Comfortable fabric sofa with durable upholstery.",
+        "price": 900
+      },
+      {
+        "image": "images/SofaCouch5.jpeg",
+        "name": "Chesterfield Sofa",
+        "description": "Elegant chesterfield sofa with button-tufted backrest.",
+        "price": 1100
+      }
+    ],
+    "ChairsAndRecliners": [
+      {
+        "image": "images/chairsRecliners1.jpeg",
+        "name": "Recliner Chair",
+        "description": "A cozy recliner with adjustable footrest and back support.",
+        "price": 400
+      },
+      {
+        "image": "images/chairsRecliners2.jpeg",
+        "name": "Accent Chair",
+        "description": "A stylish accent chair that adds a pop of color to any room.",
+        "price": 250
+      },
+      {
+        "image": "images/chairsRecliners3.jpeg",
+        "name": "Rocking Chair",
+        "description": "A classic wooden rocking chair for relaxation.",
+        "price": 300
+      },
+      {
+        "image": "images/chairsRecliners4.jpeg",
+        "name": "Leather Armchair",
+        "description": "Luxurious leather armchair with padded seat.",
+        "price": 500
+      },
+      {
+        "image": "images/chairsRecliners5.jpeg",
+        "name": "Lounge Chair",
+        "description": "Comfortable lounge chair perfect for reading or lounging.",
+        "price": 350
+      }
+    ],
+    "Tables": [
+      {
+        "image": "images/table1.jpeg",
+        "name": "Coffee Table",
+        "description": "A minimalist coffee table with a glass top and metal frame.",
+        "price": 200
+      },
+      {
+        "image": "images/table2.jpeg",
+        "name": "Dining Table",
+        "description": "Wooden dining table with a spacious surface for family meals.",
+        "price": 800
+      },
+      {
+        "image": "images/table3.jpeg",
+        "name": "Side Table",
+        "description": "A compact side table with a drawer for storage.",
+        "price": 150
+      },
+      {
+        "image": "images/table4.jpeg",
+        "name": "Console Table",
+        "description": "A sleek console table perfect for entryways.",
+        "price": 300
+      },
+      {
+        "image": "images/table5.jpeg",
+        "name": "Bar Table",
+        "description": "Modern bar table with a high-rise design.",
+        "price": 450
+      }
+    ],
+    "BedAndMattresses": [
+      {
+        "image": "images/bedMatress1.jpeg",
+        "name": "King Size Bed",
+        "description": "A spacious king size bed with a wooden frame.",
+        "price": 1500
+      },
+      {
+        "image": "images/bedMatress2.jpeg",
+        "name": "Queen Size Bed",
+        "description": "A comfortable queen size bed with upholstered headboard.",
+        "price": 1200
+      },
+      {
+        "image": "images/bedMatress3.jpeg",
+        "name": "Memory Foam Mattress",
+        "description": "A high-quality memory foam mattress for superior comfort.",
+        "price": 700
+      },
+      {
+        "image": "images/bedMatress4.jpeg",
+        "name": "Bunk Bed",
+        "description": "A space-saving bunk bed for children’s rooms.",
+        "price": 900
+      },
+      {
+        "image": "images/bedMatress5.jpeg",
+        "name": "Futon Bed",
+        "description": "A foldable futon bed perfect for compact spaces.",
+        "price": 400
+      }
+    ],
+    "Storage": [
+      {
+        "image": "images/storage1.jpeg",
+        "name": "Wardrobe",
+        "description": "A large wooden wardrobe with multiple compartments.",
+        "price": 1000
+      },
+      {
+        "image": "images/storage2.jpeg",
+        "name": "Bookshelf",
+        "description": "A modern bookshelf with adjustable shelves.",
+        "price": 300
+      },
+      {
+        "image": "images/storage3.jpeg",
+        "name": "TV Cabinet",
+        "description": "A sleek TV cabinet with ample storage space.",
+        "price": 450
+      },
+      {
+        "image": "images/storage4.jpeg",
+        "name": "Storage Bench",
+        "description": "A stylish storage bench with hidden compartments.",
+        "price": 350
+      },
+      {
+        "image": "images/storage5.jpeg",
+        "name": "Chest of Drawers",
+        "description": "A spacious chest of drawers with a contemporary design.",
+        "price": 600
+      }
+    ]
+  }
+  

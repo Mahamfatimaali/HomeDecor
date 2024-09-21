@@ -1,0 +1,493 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* @font-face {
+    font-family: Barlow-Regular;
+    font-weight: 400;
+    src: url(../Barlow/Barlow-Regular.ttf);
+}
+
+@font-face {
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    src: url(../Barlow/Barlow-SemiBold.ttf);
+} */
+
+
+/* CSS of section 1  */
+.about-us {
+    overflow-x: hidden;
+}
+
+.banner-section {
+    background-image: url(../images/background3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 700px;
+
+}
+
+h1 {
+    color: #B88E2F;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 19px;
+    padding: 10px;
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.box {
+    min-height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f5e0c4;
+    margin-top: -62px;
+    padding: 20px;
+
+}
+
+
+
+.para {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    font-family: Barlow-Regular;
+    font-weight: 400;
+}
+
+
+
+/* CSS of section 2 */
+
+.section2 {
+    padding: 50px;
+}
+
+.heading2 {
+
+    color: #1B1717;
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.15px;
+    text-transform: uppercase;
+
+
+}
+
+.introduction {
+    color: #6E6E6E;
+    font-family: Barlow-Regular;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 0px 10px 0px;
+}
+
+.h2para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+
+
+}
+
+.content {
+    width: 50%;
+}
+
+.image {
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.h2para .image img {
+    width: 100%;
+    height: 700px;
+}
+
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.list1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+
+}
+
+.list1 li {
+    font-family: Barlow-Regular;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.before::before {
+    content: url(../images/tick.png);
+    margin: 15px;
+}
+
+
+.before {
+    color: #6E6E6E;
+    font-family: Poppins-Regular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: normal;
+    list-style-type: none;
+
+}
+
+/* CSS Of section 3 */
+.sec-3 {
+    background-image: url(../images/background5.jpg)
+}
+
+.num {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: #FAF3EA; */
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+
+
+}
+
+.num1,
+.num2,
+.num3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 15px solid #33572F;
+    border-top: 4px solid #33572F;
+    border-right: 4px solid #33572F;
+    border-left: 4px solid #33572F;
+    padding: 20px;
+    text-align: center;
+    margin: 3%;
+
+}
+
+h3 {
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    color: #1B1717;
+
+    font-size: 60px;
+}
+
+.num1,
+.num2,
+.num3 p {
+    font-family: Barlow-Regular;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 40px;
+
+}
+
+/* feedback section */
+.sec-4 {
+    background-image: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feedback-section {
+
+    padding: 30px 40px;
+    position: relative;
+
+
+
+}
+
+.feedback-section img {
+    text-align: center;
+    border: 4px solid #33572F;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.feedback-section h3 {
+    text-align: center;
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.feedbacks {
+    margin-top: 30px;
+    width: 100%;
+    /* padding: 40px; */
+
+
+}
+
+.fa-solid {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.feedbacks h4 {
+
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feedbacks h5 {
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    font-size: 20px;
+    color: #33572F;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.img_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.feedbacks p {
+    font-family: Barlow-Regular;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+
+    text-transform: capitalize;
+}
+
+.stars {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.fa-sharp {
+    color: #33572F;
+}
+
+
+/* CSS Of section 4 */
+
+#team-members {
+    /* background: rgba(255, 211, 0, 0.37);  */
+    padding: 50px;
+    width: 100%;
+
+}
+
+
+#team-members h2 {
+
+    color: #1B1717;
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3.15px;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+}
+
+.transition-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.team-member .image {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.team-member .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.name h3 {
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+
+.name h6 {
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #33572F;
+    margin-bottom: 8px;
+
+}
+
+.team-member .overlay {
+    width: 100%;
+    height: 76.5%;
+    position: absolute;
+
+    background-color: #33572F;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.team-member .social-icons {
+    position: absolute;
+    top: 60%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.team-member .social-icons a {
+    width: 40px;
+    height: 40px;
+}
+
+.transition-section .image:hover .social-icons {
+    top: 45%;
+    opacity: 1;
+}
+
+.transition-section .image:hover .overlay {
+    top: 4%;
+    opacity: 0.55;
+}
+
+
+/* CSS Of section 5 */
+
+.desc-section4 
+{
+    background-color: #fff; ;
+    min-height: 200px;
+ 
+}
+.desc-4-row{
+    display: flex;
+}
+.desc-heading{
+    justify-content: center;
+  display: flex;
+  align-content: center;
+}
+.desc-4-row h5{
+    font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; 
+margin-top: 71px;
+font-family: Barlow-SemiBold;
+    font-weight: 600;
+/*! margin-left: 180px; */
+/*! color: #b88e2f; */
+margin-left: 133px;
+}
+.desc-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+
+.desc-btn .btn{
+    color: white;
+    font-weight: 700;
+    font-size: 0.875rem;
+    padding: 13px 35px;
+    background-color: #33572F;
+    justify-content: center;
+    align-items: center;
+    text-decoration: inherit;
+    margin-top: 74px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-family: Barlow-Regular;
+    font-weight: 400;
+    margin-top: 78px;
+    margin-left: -60px;
+    border: none;
+    
+}
+.desc-btn .btn:hover{
+    background-color: white;
+    color: #33572F;
+    border: 1px solid #33572F;
+        transition: all 1s ease;
+}

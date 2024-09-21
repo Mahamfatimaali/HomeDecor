@@ -1,0 +1,165 @@
+/* Reset some basic styles */
+
+header {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+  
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1000;
+}
+
+  
+  
+.logo-1 {
+    display: flex;
+    align-items: center;
+}
+  
+.logo-1 img.logo {
+    width: 60px;
+    height: auto;
+}
+  
+.logo-1 p {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+  
+.navitems nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+  
+.navitems nav ul li {
+    position: relative;
+}
+  
+.navitems nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    font-size: 24px;
+}
+  
+.navitems nav ul li a:hover {
+    color: #b88e2f;
+}
+  
+
+  
+.icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+  
+.icons a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #333;
+    position: relative;
+}
+  
+.icons a:hover {
+    color: #b88e2f;
+}
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 24px; /* Adjust size to fit your layout */
+    margin-left: 10px;
+  }
+  
+  .icon-badge {
+    position: absolute;
+    top: -8px; /* Adjust to position above the icon */
+    right: -8px; /* Adjust to position to the right of the icon */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+  }
+  
+
+/* Adjust the spacing between the navbar and search bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px; /* Adjust space between search bar and other content */
+}
+  
+.search-bar input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+  
+.search-bar button {
+    padding: 10px;
+    background-color: #b88e2f;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    color: white;
+    cursor: pointer;
+}
+  
+.search-bar button i {
+    font-size: 1.2rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navitems nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropdown {
+        position: static;
+        box-shadow: none;
+    }
+
+    .dropdown .column img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .search-bar input {
+        width: 80%;
+    }
+}

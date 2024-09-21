@@ -1,0 +1,78 @@
+/* DesignStyles.css */
+
+.design-styles-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 100px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.category-list, .design-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-list button, .design-list button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f5e0c4;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.category-list button.active, .design-list button.active {
+  background-color: #b88e2f;
+  color: white;
+}
+
+.category-list button:hover, .design-list button:hover {
+  background-color: #b88e2f;
+}
+
+.design-details {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.design-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.design-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.total-cost {
+  font-weight: bold;
+  color: #b88e2f;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}

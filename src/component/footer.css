@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&family=Poppins:wght@200&display=swap');
+
+/*-------------------footer section-------------------------*/
+.footersection{
+    background-color: #f5e0c4;
+    min-height: 200px;
+    padding: 35px 0px;
+    width: 100%;
+    
+    
+}
+.footer-row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-col1{
+    flex-basis: 25%;
+    padding: 10px;
+    font-family: Barlow-Regular;
+font-weight: 400;
+}
+.logo-footer{
+    width: 100px;
+    margin-bottom: 25px;
+}
+.flex-logo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flex-logo p{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.footer-col2 h3{
+    width: fit-content;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+}
+.footer-col2 p{
+    font-family: Barlow-Regular;
+font-weight: 400;
+}
+ .email-id{
+    width: fit-content;
+    border-bottom: 1px solid #333;
+    margin: 20px 0;
+    font-family: Barlow-Regular;
+font-weight: 400;
+} 
+.footer-col3 h3{
+    width: fit-content;
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: Barlow-Regular;
+font-weight: 400;
+}
+ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.footer-col4 h3{
+    width: fit-content;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: Barlow-SemiBold;
+    font-weight: 600;
+    
+}
+#footer-form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    margin-bottom: 50px;
+    font-family: Barlow-Regular;
+font-weight: 400;
+}
+#footer-form .fa-solid{
+    font-size: 18px;
+    margin-right: 10px;
+}
+#footer-form input{
+    width: 100%;
+    background: transparent;
+    color: #333;
+    border: 0;
+    outline: none;
+    
+}
+#footer-form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+#footer-form button .fa-solid{
+    font-size: 16px;
+    color: #333;
+    margin-left: 10px;
+}
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #333;
+    background-color: #f5e0c4;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-icons .fa-brands:hover{
+    color: #b88e2f;
+    background-color: #fff;
+    border-color: #b88e2f;
+}
+.footer-bottom {
+    border-top: 1px solid rgba(16, 14, 14, 0.895);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 56px;
+}
+.bottom-bar{
+    background: #f5e0c4;
+    border-top: 1px solid #333;
+    text-align: center;
+    padding: 10px 363px;
+    margin-top: 55px;
+}
+.bottom-bar p{
+    color:#333;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+    font-family: Barlow-Regular;
+font-weight: 400;
+    
+}
+.bottom-bar a{
+    text-decoration: none;
+}
+.footer-col2  a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.email-id a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  
+}

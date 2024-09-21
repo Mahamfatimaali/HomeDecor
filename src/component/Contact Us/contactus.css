@@ -1,0 +1,145 @@
+
+/* @font-face {
+  font-family: Barlow-Regular;
+  font-weight: 400;
+  src: url(../Barlow/Barlow-Regular.ttf);
+}
+@font-face {
+  font-family: Barlow-SemiBold;
+  font-weight: 600;
+  src: url(../Barlow/Barlow-SemiBold.ttf);
+} */
+h1{
+
+  margin: 48px;
+  text-align: center;
+  font-family: Barlow-SemiBold;
+  font-weight: 600;
+}
+.contactus{
+  overflow-x: hidden;
+}
+.container-1{
+
+  display: flex;
+  /*! justify-content: center; */
+box-shadow:  0px 141px 200px -80px #193A4B4D;
+  /*! margin: 13px 375px; */
+  border: 1px solid antiquewhite;
+  /*! width: 634px; */
+  border-radius: 50px;
+  max-width: 50%;
+  /*! min-height: 700px; */
+  margin: 200px auto;
+}
+
+.contact-form {
+
+  background-color: #fff;
+
+  padding: 20px;
+  max-width: 83%;
+  border-top-left-radius: 56px;
+  border-bottom-left-radius: 60px;
+}
+.contact-info {
+
+  background-color: #f5e0c4;
+  padding: 20px;
+  min-width: 40%;
+  border-top-right-radius: 56px;
+  border-bottom-right-radius: 60px;
+}
+h2 {
+
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: Barlow-SemiBold;
+  font-weight: 600;
+
+
+}
+
+
+label {
+
+  display: block;
+
+  margin-bottom: 5px;
+
+}
+
+
+input[type="text"], input[type="tel"], input[type="email"] {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 10px;
+  text-decoration: none;
+
+}
+button[type="submit"] {
+
+  background-color: #b88e2f;
+
+  color: #fff;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  cursor: pointer;
+
+}
+
+
+button[type="submit"]:hover {
+
+  background-color: #B7D6B4;
+
+}
+
+.error {
+  color: #d9534f;
+  font-size: 12px;
+}
+.container-2{
+  display: flex;
+  flex-direction: column;
+}
+.icon-3, .icon-4{
+  
+  justify-content: space-between;
+  min-height: 50px;
+  align-content: center;
+  padding: 20px;
+}
+.icon-3 a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.icon-3 a:hover{
+  color: #33572F;
+}
+.icon-4 a{
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+}
+.icon-4 a:hover{
+  color: #b88e2f;
+}
+
+.location iframe{
+  max-height: 250px;
+  max-width: 100%;
+  border: 1px solid black;
+}
+.accordion-item p{
+  font-family: Barlow-Regular;
+  font-weight: 400;
+}
